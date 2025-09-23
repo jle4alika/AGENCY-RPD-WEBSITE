@@ -1,14 +1,11 @@
+"""Backend Flask module for website work"""
 import flask
 from flask import Flask
 from flask import request
-
 from prometheus_flask_exporter import PrometheusMetrics
-
 from telethon import TelegramClient
 import asyncio
-
 import sys
-
 import logging
 
 logging.basicConfig(level=logging.INFO,
