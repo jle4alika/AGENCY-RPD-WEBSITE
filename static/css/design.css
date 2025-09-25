@@ -300,8 +300,4 @@ body {
   .gallery {
     grid-template-columns: 1fr;
   }
-  
-  .gallery-img {
-    height: 150px;
-  }
 }
